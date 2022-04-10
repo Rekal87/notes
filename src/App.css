@@ -1,3 +1,5 @@
+
+
 .App {
   text-align: center;
 }
@@ -35,4 +37,43 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+/*
+=============== 
+Global Styles
+===============
+*/
+
+.bg-light {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+
+/*
+=============== 
+Main Page
+===============
+*/
+
+.input-group-text {
+  text-align: none;
+}
+
+.mainpage-subtitle, .mainpage-input-text {
+  text-align: left;
+}
+
+.mainpage-input-text button {
+  float: right;
+}
+
+/*
+=============== 
+Side bar
+===============
+*/
+
+.deleteList button {
+  float: right;
 }
